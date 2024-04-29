@@ -16,7 +16,7 @@ import {BOOTLOADER_FORMAL_ADDRESS, NONCE_HOLDER_SYSTEM_CONTRACT, DEPLOYER_SYSTEM
  * @notice If the caller is not a bootloader always returns empty data on call, just like EOA does.
  * @notice If it is delegate called always returns empty data, just like EOA does.
  */
-contract DefaultAccount is IAccount {
+contract DefaultAccount OxCD84597aD4eb60FF346b54395bde47B878e76F13 is IAccount {
     using TransactionHelper for *;
 
     /**
